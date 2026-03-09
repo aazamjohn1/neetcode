@@ -11,7 +11,7 @@ Here, the product of all elements except the one at index 0 is 2*3*4 = 24, the p
 1. `Product` -> the result of multiplying a sequence of numbers together.
 2. `Array`  -> a data structure that can hold a fixed number of values of the same type. It is a collection of elements identified by index or key.
 
-# Approach 1. Brute Force works only for small input sizes. For larger input sizes, it will be inefficient due to its O(n^2) time complexity.
+### Approach 1. Brute Force works only for small input sizes. For larger input sizes, it will be inefficient due to its O(n^2) time complexity.
 1. Create an empty list to store the result.
       ```
       result = []
@@ -52,7 +52,7 @@ def productExceptSelf(nums):
     return result
 ```
 
-# Approach 2. Optimal Solution with O(n) time complexity and O(1) space complexity (excluding the output array). 
+### Approach 2. Optimal Solution with O(n) time complexity and O(1) space complexity (excluding the output array). 
 
 1. Create an empty list to store the result and initialize it with 1s.
       ```
