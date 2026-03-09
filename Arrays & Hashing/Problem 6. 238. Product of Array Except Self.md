@@ -139,25 +139,31 @@ right_product = 1
 ### i = 3 (last index):
 
 ``` shell
-res[2] = 2 * 4 = 8
-right_prod = 4 * 3 = 12
+res[3] = 6 * 1 = 6
+right_prod = 1 * 4 = 4
 ```
 
 ### i = 2:
 
 ``` shell
-res[1] = 1 * 12 = 12
-right_prod = 12 * 2 = 24
+res[2] = 2 * 4 = 8
+right_prod = 4 * 3 = 12
 ```
 ### i = 1:
 
 ``` shell
-res[0] = 1 * 24 = 24
-right_prod = 24 * 1 = 24
+res[1] = 1 * 12 = 12
+right_prod = 12 * 2 = 24
 ```
 ### i = 0:
 
 ``` shell
-res[-1] = 1 * 24 = 24
-right_prod = 24 * 1 = 24
+res[0] = 1 * 24 = 24
 ```
+
+### Final result after both left and right product calculations is:
+
+``` shell
+res = [24, 12, 8, 6]
+``` 
+
