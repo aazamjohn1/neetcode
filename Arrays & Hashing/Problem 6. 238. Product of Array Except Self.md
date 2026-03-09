@@ -101,4 +101,63 @@ def productExceptSelf(nums):
         right_product *= nums[i]
     return result
 ```   
+# STEP BY STEP LEFT PRODUCT CALCULATION
+### Initialize `left_product` to 1.
+``` shell
+left_product = 1
+```
+### i = 0:
+``` shell
+res[0] = 1 * 1 = 1
+left_prod = 1 * 1 = 1
+```
+### i = 1:
+``` shell
+res[1] = 1 * 1 = 1
+left_prod = 1 * 2 = 2
+```
+### i = 2:
+``` shell
+res[2] = 1 * 2 = 2
+left_prod = 2 * 3 = 6
+```
+### i = 3:
+``` shell
+res[3] = 1 * 6 = 6
+left_prod = 6 * 4 = 24
+```
 
+
+
+# STEP BY STEP RIGHT PRODUCT CALCULATION
+### Initialize `right_product` to 1.
+
+``` shell
+right_product = 1
+```
+
+### i = 3 (last index):
+
+``` shell
+res[2] = 2 * 4 = 8
+right_prod = 4 * 3 = 12
+```
+
+### i = 2:
+
+``` shell
+res[1] = 1 * 12 = 12
+right_prod = 12 * 2 = 24
+```
+### i = 1:
+
+``` shell
+res[0] = 1 * 24 = 24
+right_prod = 24 * 1 = 24
+```
+### i = 0:
+
+``` shell
+res[-1] = 1 * 24 = 24
+right_prod = 24 * 1 = 24
+```
