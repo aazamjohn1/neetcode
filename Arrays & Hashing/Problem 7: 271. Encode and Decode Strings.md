@@ -150,6 +150,7 @@ i = 21
 ```
 #### Step 5: Return the list of decoded strings
 ``` shell
+# FINAL OUTPUT
 return ["leet", "code", "is", "fun"]
 ```   
 
